@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  background-color: #f4f3ee;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.hstick .navbar {
+  padding: 0.94rem 0;
+  -o-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.hstick .navbar-brand {
+  max-width: 11rem;
+  border-radius: 50%;
+  height: 4rem;
+}
+.hstick .nav-item {
+  margin: 0 0.6rem;
+}
+.hstick .nav-item .nav-link {
+  color: #077187;
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.hstick .nav-item .nav-link.active,
+.hstick .nav-item .nav-link:hover {
+  color: #e2c044;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.367);
+}
+/* -----------------------------------------  */
+.one {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  scroll-snap-align: start;
+}
+.one1 {
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  scroll-snap-align: start;
+}
+.t1 {
+  color: #077187;
+}
+.t1 {
+  font-size: 3.2rem;
+}
+
+@media (max-width: 767px) {
+  .t1 {
+    font-size: 3rem;
+    color: #077187;
+    text-align: center;
+  }
+}
+.text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  max-width: 500px;
+  margin-top: 20px;
+  color: #077187;
+}
+
+@media (max-width: 767px) {
+  .text {
+    font-size: 20px;
+    color: #077187;
+    text-align: center;
+  }
+}
+.t2 {
+  color: #077187;
+}
+.t2 {
+  font-size: 3rem;
+}
+@media (max-width: 767px) {
+  .t2 {
+    font-size: 3rem;
+    color: #077187;
+    text-align: center;
+  }
+}
+.cardmulti {
+  max-height: 300px;
+}
+.t3 {
+  color: #077187;
+  font-size: 30px;
+  font-weight: 700;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #07728778;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.personas {
+  max-height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  background-color: #e2c044;
+}
+.datos {
+  max-height: auto;
+  width: 450px;
+}
+.yoni {
+  background-image: url("/TrabajoFinalUnidad2/img/dots.png");
+  background-repeat: round space;
+}
+.mas {
+  margin-bottom: 5rem;
+}
+/* 02d8f3
+#fcee0a 
+#131200*/
+/* FAMILIA----------- */
+
+.personas2 {
+  max-height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #e2c044;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fam1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+}
+.fam2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.2rem;
+}
